@@ -1,0 +1,1401 @@
+[data-v-2432a4aa] .van-list__loading {
+    margin: 0 auto
+}
+
+[data-v-2432a4aa] .van-list__loading .van-loading .van-loading__spinner {
+    height: 22px!important;
+    width: 22px!important
+}
+
+[data-v-2432a4aa] .van-list__loading .van-loading .van-loading__text {
+    color: #b4b4b4
+}
+
+.max-1-line[data-v-2432a4aa] {
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.image-rendering[data-v-2432a4aa] {
+    -ms-interpolation-mode: nearest-neighbor;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges
+}
+
+.fixed-top-el-class.sticky-class[data-v-2432a4aa] {
+    max-width: 750px!important;
+    position: fixed!important;
+    top: 0!important;
+    width: 100%!important
+}
+
+.fixed-top-el-class.sticky-class+.placeholder-fixed-el2[data-v-2432a4aa] {
+    margin-top: 56.25vw
+}
+
+.channel-bar[data-v-2432a4aa] {
+    -webkit-box-pack: justify;
+    background: #fff;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    min-height: 30px;
+    padding: 10px
+}
+
+.channel-bar .channels[data-v-2432a4aa],.channel-bar[data-v-2432a4aa] {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex
+}
+
+.channel-bar .channels[data-v-2432a4aa] {
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 5px
+}
+
+.channel-bar .channels .btn[data-v-2432a4aa] {
+    background: #fff;
+    border: 1px solid #d1d1d1;
+    border-radius: 100px;
+    color: #d1d1d1;
+    font-size: 13px;
+    height: 24px;
+    line-height: 1;
+    margin-right: 10px;
+    min-width: 64px;
+    padding: 0 10px;
+    position: relative;
+    white-space: normal
+}
+
+.channel-bar .channels .btn.active[data-v-2432a4aa] {
+    background: #3377d1;
+    border-color: #3377d1;
+    color: #fff
+}
+
+.channel-bar .channels .btn .icon-vip[data-v-2432a4aa] {
+    height: auto;
+    position: absolute;
+    right: -16px;
+    top: -7px;
+    width: 32px
+}
+
+.channel-bar .ops[data-v-2432a4aa] {
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center
+}
+
+.channel-bar .ops .refresh[data-v-2432a4aa] {
+    border-radius: 50%;
+    height: 30px;
+    margin-left: auto;
+    width: 30px
+}
+
+@-webkit-keyframes rotate-2432a4aa {
+    0% {
+        -webkit-transform: rotate(1turn);
+        transform: rotate(1turn)
+    }
+
+    to {
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+}
+
+@keyframes rotate-2432a4aa {
+    0% {
+        -webkit-transform: rotate(1turn);
+        transform: rotate(1turn)
+    }
+
+    to {
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+}
+
+.channel-bar .ops .refresh .icon-refresh[data-v-2432a4aa] {
+    height: 21px;
+    width: 21px
+}
+
+.channel-bar .ops .refresh.active .icon-refresh[data-v-2432a4aa] {
+    -webkit-animation: rotate-2432a4aa .5s linear infinite;
+    animation: rotate-2432a4aa .5s linear infinite
+}
+
+.channel-bar .ops .feedback-stream[data-v-2432a4aa] {
+    margin-left: 10px
+}
+
+.channel-bar .ops .feedback-stream .icon-feedback-stream[data-v-2432a4aa] {
+    height: 20px;
+    width: 20px
+}
+
+.iframe-player-mixin .video-player-wrapper[data-v-2432a4aa] {
+    background: #000;
+    height: 56.25vw;
+    max-height: 422px;
+    position: relative
+}
+
+@media only screen and (width: 899px) {
+    .iframe-player-mixin.detail-basketball .video-player-wrapper[data-v-2432a4aa],.iframe-player-mixin.detail-football .video-player-wrapper[data-v-2432a4aa],.iframe-player-mixin.detail-others .video-player-wrapper[data-v-2432a4aa] {
+        height:56.25vw!important
+    }
+}
+
+@media only screen and (max-width: 1228px) and (min-width:899px) {
+    .iframe-player-mixin.detail-basketball .video-player-wrapper[data-v-2432a4aa],.iframe-player-mixin.detail-football .video-player-wrapper[data-v-2432a4aa],.iframe-player-mixin.detail-others .video-player-wrapper[data-v-2432a4aa] {
+        height:calc(56.25vw - 268.875px)
+    }
+
+    .iframe-player-mixin.detail-without-right .video-player-wrapper[data-v-2432a4aa] {
+        height: 56.25vw
+    }
+}
+
+.player-wrapper-holder-mixin[data-v-2432a4aa] {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 56.25vw;
+    vertical-align: middle;
+    z-index: -1
+}
+
+.player-wrapper-holder-mixin.wrapper-holder-football[data-v-2432a4aa],.player-wrapper-holder-mixin.wrapper-holder-others[data-v-2432a4aa] {
+    background-image: url(https://cfstatic.newapia.com/img/player/icon-player-holder-football.jpg)
+}
+
+.player-wrapper-holder-mixin.wrapper-holder-basketball[data-v-2432a4aa] {
+    background-image: url(https://cfstatic.newapia.com/img/player/icon-player-holder-basketball.jpg)
+}
+
+.contact-style-mixin .contact[data-v-2432a4aa] {
+    padding: 0 8px
+}
+
+.contact-style-mixin .contact h3[data-v-2432a4aa] {
+    padding: 15px 0
+}
+
+.contact-style-mixin .contact a[data-v-2432a4aa] {
+    color: #032c63
+}
+
+.contact-style-mixin .contact p[data-v-2432a4aa] {
+    padding: 14px 0
+}
+
+.contact-style-mixin .contact p[data-v-2432a4aa]:last-child {
+    padding-top: 0
+}
+
+.contact-style-mixin .dev-tips[data-v-2432a4aa] {
+    margin-top: 50px;
+    padding: 0 10px
+}
+
+.contact-style-mixin .dev-tips pre[data-v-2432a4aa] {
+    margin-top: 10px;
+    white-space: pre-wrap
+}
+
+.contact-style-mixin .email-text[data-v-2432a4aa] {
+    cursor: pointer
+}
+
+.devsettings-style-mixin[data-v-2432a4aa] {
+    padding: 10px 8px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none
+}
+
+.devsettings-style-mixin h2[data-v-2432a4aa] {
+    margin: 25px 0 3px
+}
+
+.devsettings-style-mixin .link[data-v-2432a4aa] {
+    color: #1e90ff
+}
+
+.devsettings-style-mixin table[data-v-2432a4aa] {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    height: 150px;
+    width: 280px
+}
+
+.devsettings-style-mixin input[type=checkbox][data-v-2432a4aa] {
+    display: none
+}
+
+.devsettings-style-mixin input[type=checkbox]+label[data-v-2432a4aa] {
+    box-sizing: border-box;
+    display: inline-block;
+    height: 20px;
+    margin: 0 20px;
+    position: relative;
+    -webkit-transition: .3s;
+    transition: .3s;
+    width: 40px
+}
+
+.devsettings-style-mixin input[type=checkbox]+label[data-v-2432a4aa]:after,.devsettings-style-mixin input[type=checkbox]+label[data-v-2432a4aa]:before {
+    content: "";
+    cursor: pointer;
+    display: block;
+    height: 20px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    -webkit-transition: .3s;
+    transition: .3s;
+    width: 20px
+}
+
+.devsettings-style-mixin #q1[data-v-2432a4aa],.devsettings-style-mixin #q2[data-v-2432a4aa],.devsettings-style-mixin #q3[data-v-2432a4aa],.devsettings-style-mixin #q4[data-v-2432a4aa],.devsettings-style-mixin #q5[data-v-2432a4aa] {
+    cursor: pointer
+}
+
+.devsettings-style-mixin #q1:checked+label.green[data-v-2432a4aa],.devsettings-style-mixin #q2:checked+label.green[data-v-2432a4aa],.devsettings-style-mixin #q3:checked+label.green[data-v-2432a4aa],.devsettings-style-mixin #q4:checked+label.green[data-v-2432a4aa],.devsettings-style-mixin #q5:checked+label.green[data-v-2432a4aa] {
+    background: #aedcae
+}
+
+.devsettings-style-mixin #q1:checked+label.green[data-v-2432a4aa]:after,.devsettings-style-mixin #q2:checked+label.green[data-v-2432a4aa]:after,.devsettings-style-mixin #q3:checked+label.green[data-v-2432a4aa]:after,.devsettings-style-mixin #q4:checked+label.green[data-v-2432a4aa]:after,.devsettings-style-mixin #q5:checked+label.green[data-v-2432a4aa]:after {
+    background: #5cb85c
+}
+
+.devsettings-style-mixin #q1:checked+label[data-v-2432a4aa]:after,.devsettings-style-mixin #q2:checked+label[data-v-2432a4aa]:after,.devsettings-style-mixin #q3:checked+label[data-v-2432a4aa]:after,.devsettings-style-mixin #q4:checked+label[data-v-2432a4aa]:after,.devsettings-style-mixin #q5:checked+label[data-v-2432a4aa]:after {
+    left: calc(100% - 20px)
+}
+
+.devsettings-style-mixin #q1+label[data-v-2432a4aa],.devsettings-style-mixin #q2+label[data-v-2432a4aa],.devsettings-style-mixin #q3+label[data-v-2432a4aa],.devsettings-style-mixin #q4+label[data-v-2432a4aa],.devsettings-style-mixin #q5+label[data-v-2432a4aa] {
+    background: #ddd;
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px #aaa;
+    cursor: pointer
+}
+
+.devsettings-style-mixin #q1+label[data-v-2432a4aa]:after,.devsettings-style-mixin #q2+label[data-v-2432a4aa]:after,.devsettings-style-mixin #q3+label[data-v-2432a4aa]:after,.devsettings-style-mixin #q4+label[data-v-2432a4aa]:after,.devsettings-style-mixin #q5+label[data-v-2432a4aa]:after {
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 1px 1px 3px #aaa
+}
+
+.init-loading-mixin[data-v-2432a4aa] {
+    left: 50%;
+    margin: -50px auto auto -50px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: scale(.4);
+    transform: scale(.4)
+}
+
+.init-loading-mixin svg[data-v-2432a4aa] {
+    -webkit-animation: loadingRotate-2432a4aa 1s linear infinite;
+    animation: loadingRotate-2432a4aa 1s linear infinite;
+    border-radius: 50%;
+    -webkit-transform-origin: center;
+    transform-origin: center
+}
+
+.init-loading-mixin svg path[data-v-2432a4aa] {
+    stroke: #ddd;
+    stroke-dasharray: 236;
+    fill: none;
+    stroke-width: 12px;
+    -webkit-animation: loadingdashoffset 2s linear infinite;
+    animation: loadingdashoffset 2s linear infinite;
+    animation-direction: alternate-reverse
+}
+
+@-webkit-keyframes loadingRotate-2432a4aa {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+
+    to {
+        -webkit-transform: rotate(1turn);
+        transform: rotate(1turn)
+    }
+}
+
+@keyframes loadingRotate-2432a4aa {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+
+    to {
+        -webkit-transform: rotate(1turn);
+        transform: rotate(1turn)
+    }
+}
+
+.user-logo-wrap-mixin .user-logo-wrap[data-v-2432a4aa] {
+    position: relative
+}
+
+.user-logo-wrap-mixin .user-logo-wrap .user-logo[data-v-2432a4aa] {
+    cursor: pointer;
+    margin-left: -2px;
+    width: 23px
+}
+
+.user-logo-wrap-mixin .user-logo-wrap .user-logo.user-logo-exist[data-v-2432a4aa] {
+    border-radius: 50%
+}
+
+.user-logo-wrap-mixin .user-logo-wrap.user-exist-generalmsg[data-v-2432a4aa]:before {
+    background-color: #f84242;
+    border-radius: 50%;
+    content: "";
+    height: 6px;
+    position: absolute;
+    right: -2px;
+    top: 0;
+    width: 6px
+}
+
+.download-dvertise-wrap-mixin .android-download-wrap[data-v-2432a4aa],.download-dvertise-wrap-mixin .dvertise-wrap[data-v-2432a4aa] {
+    margin-right: 20px
+}
+
+.download-dvertise-wrap-mixin .android-download-wrap button .img-p[data-v-2432a4aa] {
+    background: url(https://cfstatic.newapia.com/img/icon_whibla_android.svg) no-repeat;
+    background-size: cover;
+    height: 18px;
+    margin-right: 6px;
+    width: 18px
+}
+
+.download-dvertise-wrap-mixin .dvertise-wrap button .img-p[data-v-2432a4aa] {
+    background: url(https://cfstatic.newapia.com/img/icon_whibla_dvertise.svg) no-repeat;
+    background-size: cover;
+    height: 18px;
+    margin-right: 6px;
+    width: 18px
+}
+
+.download-dvertise-wrap-mixin button[data-v-2432a4aa] {
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    background: #d9d9d9;
+    border-radius: 4px;
+    color: #031b25;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    min-width: 138px;
+    padding: 3px 12px;
+    position: relative
+}
+
+.download-dvertise-wrap-mixin button a[data-v-2432a4aa] {
+    white-space: nowrap
+}
+
+.download-dvertise-wrap-mixin button a[data-v-2432a4aa]:after {
+    bottom: -1px;
+    content: "";
+    left: -1px;
+    position: absolute;
+    right: 2px;
+    top: -1px
+}
+
+.download-dvertise-wrap-mixin .user-logo-wrap[data-v-2432a4aa] {
+    position: relative
+}
+
+.download-dvertise-wrap-mixin .user-logo-wrap .user-logo[data-v-2432a4aa] {
+    cursor: pointer;
+    margin-left: -2px;
+    width: 23px
+}
+
+.download-dvertise-wrap-mixin .user-logo-wrap .user-logo.user-logo-exist[data-v-2432a4aa] {
+    border-radius: 50%
+}
+
+.download-dvertise-wrap-mixin .user-logo-wrap.user-exist-generalmsg[data-v-2432a4aa]:before {
+    background-color: #f84242;
+    border-radius: 50%;
+    content: "";
+    height: 6px;
+    position: absolute;
+    right: -2px;
+    top: 0;
+    width: 6px
+}
+
+.download-dvertise-wrap-680-mixin .android-download-wrap[data-v-2432a4aa],.download-dvertise-wrap-680-mixin .dvertise-wrap[data-v-2432a4aa] {
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    -webkit-align-items: center;
+    align-items: center;
+    background: #d9d9d9;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    height: 22px;
+    -webkit-justify-content: center;
+    justify-content: center;
+    width: 22px
+}
+
+.download-dvertise-wrap-680-mixin .android-download-wrap button[data-v-2432a4aa],.download-dvertise-wrap-680-mixin .dvertise-wrap button[data-v-2432a4aa] {
+    min-width: -webkit-fit-content;
+    min-width: -moz-fit-content;
+    min-width: fit-content;
+    padding: 0
+}
+
+.download-dvertise-wrap-680-mixin .android-download-wrap button .img-p[data-v-2432a4aa] {
+    background: url(https://cfstatic.newapia.com/img/5th/icon-app-download-plain.svg) no-repeat;
+    background-size: 18px 18px;
+    height: 18px;
+    margin-right: 0;
+    width: 18px
+}
+
+.download-dvertise-wrap-680-mixin .android-download-wrap button .text[data-v-2432a4aa] {
+    display: none
+}
+
+.download-dvertise-wrap-680-mixin .dvertise-wrap button .img-p[data-v-2432a4aa] {
+    background: url(https://cfstatic.newapia.com/img/5th/icon-dvertise-plain.svg) no-repeat;
+    background-size: 18px 18px;
+    height: 18px;
+    margin-right: 0;
+    width: 18px
+}
+
+.download-dvertise-wrap-680-mixin .dvertise-wrap button .text[data-v-2432a4aa] {
+    display: none
+}
+
+.init-loading-mixin2[data-v-2432a4aa] {
+    left: 0!important;
+    margin: inherit!important;
+    position: relative!important;
+    right: 0!important;
+    top: 0!important;
+    width: 36px
+}
+
+.init-loading-mixin2 svg[data-v-2432a4aa] {
+    height: 44px;
+    width: 44px
+}
+
+.init-loading-mixin2 svg path[data-v-2432a4aa] {
+    stroke: #333!important
+}
+
+.user-send-code-btn[data-v-2432a4aa] {
+    background: #00c9a5;
+    border-radius: 2px;
+    font-size: 12px;
+    height: 22px;
+    min-width: -webkit-fit-content;
+    min-width: -moz-fit-content;
+    min-width: fit-content;
+    padding: 0 5px;
+    position: absolute;
+    right: 10px;
+    top: 13px;
+    white-space: nowrap;
+    width: 50px
+}
+
+.user-send-code-btn .init-loading[data-v-2432a4aa] {
+    margin-left: -8px!important;
+    top: 1px!important;
+    width: 29px!important
+}
+
+.user-send-code-btn .init-loading[data-v-2432a4aa] svg {
+    height: 40px;
+    width: 40px
+}
+
+.user-comp-mixin input[data-v-2432a4aa] {
+    background: #031c26;
+    border: none;
+    border-radius: 4px;
+    caret-color: #fff;
+    color: #fff;
+    font-size: 14px;
+    height: 36px;
+    line-height: 18px;
+    margin-bottom: 16px;
+    margin-top: 6px;
+    padding: 10px;
+    width: 100%
+}
+
+.user-comp-mixin input[data-v-2432a4aa]:focus {
+    border-color: #00c9a5;
+    outline: 1px solid #00c9a5
+}
+
+.user-comp-mixin input[data-v-2432a4aa]:-moz-autofill,.user-comp-mixin input[data-v-2432a4aa]:-moz-autofill-preview,.user-comp-mixin input[data-v-2432a4aa]:autofill {
+    background: #031c26!important;
+    filter: none!important
+}
+
+.user-comp-mixin input[data-v-2432a4aa]:-internal-autofill-previewed,.user-comp-mixin input[data-v-2432a4aa]:-internal-autofill-selected,.user-comp-mixin input[data-v-2432a4aa]:-webkit-autofill,.user-comp-mixin input[data-v-2432a4aa]:-webkit-autofill:active,.user-comp-mixin input[data-v-2432a4aa]:-webkit-autofill:focus,.user-comp-mixin input[data-v-2432a4aa]:-webkit-autofill:hover {
+    -webkit-text-fill-color: #fff!important;
+    background-color: #031c26!important;
+    -webkit-transition: background-color 1000s ease-out .5s!important;
+    transition: background-color 1000s ease-out .5s!important
+}
+
+.user-comp-mixin button[data-v-2432a4aa] {
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    background: #ebc501;
+    color: #333;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    font-size: 16px;
+    font-weight: 400;
+    height: 36px;
+    -webkit-justify-content: center;
+    justify-content: center;
+    line-height: normal;
+    position: relative;
+    white-space: nowrap;
+    width: 100%
+}
+
+.user-comp-mixin button[data-v-2432a4aa]:disabled,.user-comp-mixin button[disabled=disabled][data-v-2432a4aa] {
+    background: #bdbdbd!important;
+    cursor: not-allowed
+}
+
+.user-comp-mixin[data-v-2432a4aa] .init-loading {
+    left: 0!important;
+    margin: inherit!important;
+    position: relative!important;
+    right: 0!important;
+    top: 0!important;
+    width: 36px
+}
+
+.user-comp-mixin[data-v-2432a4aa] .init-loading svg {
+    height: 44px;
+    width: 44px
+}
+
+.user-comp-mixin[data-v-2432a4aa] .init-loading svg path {
+    stroke: #333!important
+}
+
+.user-comp-mixin .title-text-border[data-v-2432a4aa] {
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    -webkit-align-items: center;
+    align-items: center;
+    border-bottom: 1px solid #333d4b;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    font-size: 18px;
+    -webkit-justify-content: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    position: relative;
+    width: 100%
+}
+
+.user-comp-mixin .title-text-border .close-btn[data-v-2432a4aa] {
+    cursor: pointer;
+    height: 16px;
+    position: absolute;
+    right: 0;
+    width: 16px
+}
+
+.user-comp-mixin .title-texts[data-v-2432a4aa] {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%
+}
+
+.user-comp-mixin .title-texts .text1[data-v-2432a4aa] {
+    color: #fff;
+    font-size: 18px
+}
+
+.user-comp-mixin .title-texts .text2[data-v-2432a4aa] {
+    color: #00c9a5;
+    padding: 8px 10px 20px
+}
+
+.user-comp-mixin .u-inputs[data-v-2432a4aa] {
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    justify-content: center;
+    width: 100%
+}
+
+.user-comp-mixin .u-inputs .elAnim-enter-active[data-v-2432a4aa] {
+    -webkit-animation: elAnim-2432a4aa .3s;
+    animation: elAnim-2432a4aa .3s
+}
+
+@-webkit-keyframes elAnim-2432a4aa {
+    0% {
+        -webkit-transform: translateY(5px);
+        transform: translateY(5px)
+    }
+
+    to {
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+}
+
+@keyframes elAnim-2432a4aa {
+    0% {
+        -webkit-transform: translateY(5px);
+        transform: translateY(5px)
+    }
+
+    to {
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+}
+
+.user-comp-mixin .u-inputs .valid-text-red[data-v-2432a4aa] {
+    color: #ef4444;
+    font-size: 14px;
+    margin-bottom: 14px;
+    margin-top: -12px;
+    max-width: inherit
+}
+
+.user-comp-mixin .u-inputs .valid-border-red[data-v-2432a4aa] {
+    border: 1px solid #ef4444
+}
+
+.user-comp-mixin .u-inputs .valid-border-red[data-v-2432a4aa]:focus {
+    border-color: transparent!important;
+    outline: 1px solid #ef4444!important
+}
+
+.user-comp-mixin .u-inputs .email[data-v-2432a4aa],.user-comp-mixin .u-inputs .password[data-v-2432a4aa],.user-comp-mixin .u-inputs .username[data-v-2432a4aa],.user-comp-mixin .u-inputs .verification-code[data-v-2432a4aa] {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    width: 100%
+}
+
+.user-comp-mixin .u-inputs .email .text1[data-v-2432a4aa],.user-comp-mixin .u-inputs .email .text2[data-v-2432a4aa],.user-comp-mixin .u-inputs .email .text[data-v-2432a4aa],.user-comp-mixin .u-inputs .password .text1[data-v-2432a4aa],.user-comp-mixin .u-inputs .password .text2[data-v-2432a4aa],.user-comp-mixin .u-inputs .password .text[data-v-2432a4aa],.user-comp-mixin .u-inputs .username .text1[data-v-2432a4aa],.user-comp-mixin .u-inputs .username .text2[data-v-2432a4aa],.user-comp-mixin .u-inputs .username .text[data-v-2432a4aa],.user-comp-mixin .u-inputs .verification-code .text1[data-v-2432a4aa],.user-comp-mixin .u-inputs .verification-code .text2[data-v-2432a4aa],.user-comp-mixin .u-inputs .verification-code .text[data-v-2432a4aa] {
+    font-size: 14px
+}
+
+.user-comp-mixin .u-inputs .password .password-texts[data-v-2432a4aa] {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-box-pack: justify;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: space-between;
+    justify-content: space-between
+}
+
+.user-comp-mixin .u-inputs .password .password-texts .text2[data-v-2432a4aa] {
+    color: #ebc501;
+    cursor: pointer
+}
+
+.user-comp-mixin .u-inputs .password .password-input[data-v-2432a4aa] {
+    position: relative
+}
+
+.user-comp-mixin .u-inputs .password .password-input img[data-v-2432a4aa] {
+    cursor: pointer;
+    height: 24px;
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    width: 24px
+}
+
+.user-comp-mixin .btn[data-v-2432a4aa] {
+    width: 100%
+}
+
+.user-comp-mixin .or-reg[data-v-2432a4aa] {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    font-size: 14px;
+    -webkit-justify-content: center;
+    justify-content: center;
+    width: 100%
+}
+
+.user-comp-mixin .or-reg .or-text[data-v-2432a4aa] {
+    color: #fff;
+    margin-top: 20px
+}
+
+.user-comp-mixin .or-reg .or-text2[data-v-2432a4aa] {
+    color: #ebc501;
+    cursor: pointer;
+    margin: 16px 0 12px
+}
+
+.user-comp-mixin .or-reg .g-x-logos[data-v-2432a4aa] {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex
+}
+
+.user-comp-mixin .or-reg .g-x-logos img[data-v-2432a4aa] {
+    cursor: pointer;
+    height: 30px;
+    width: 30px
+}
+
+.user-comp-mixin .or-reg .g-x-logos img[data-v-2432a4aa]:first-child {
+    margin-right: 18px
+}
+
+.user-comp-mixin .or-reg .age[data-v-2432a4aa] {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    margin-top: 46px
+}
+
+.user-comp-mixin .or-reg .age img[data-v-2432a4aa] {
+    height: 36px;
+    margin-bottom: 8px;
+    width: 36px
+}
+
+.user-dialog-white-style .wrap .content[data-v-2432a4aa] {
+    background: #fff;
+    border-radius: 12px
+}
+
+.user-dialog-white-style .wrap .content .login-comp[data-v-2432a4aa] {
+    padding: 20px 0
+}
+
+.user-dialog-white-style .wrap .content .bind-account-comp .init-loading svg path[data-v-2432a4aa],.user-dialog-white-style .wrap .content .firebase-bind-account-comp .init-loading svg path[data-v-2432a4aa],.user-dialog-white-style .wrap .content .firebase-register-comp .init-loading svg path[data-v-2432a4aa],.user-dialog-white-style .wrap .content .forgot-pwd-comp .init-loading svg path[data-v-2432a4aa],.user-dialog-white-style .wrap .content .login-comp .init-loading svg path[data-v-2432a4aa],.user-dialog-white-style .wrap .content .register-comp .init-loading svg path[data-v-2432a4aa],.user-dialog-white-style .wrap .content .reset-pwd-comp .init-loading svg path[data-v-2432a4aa],.user-dialog-white-style .wrap .content .vip-verify-code-comp .init-loading svg path[data-v-2432a4aa] {
+    stroke: #fff!important
+}
+
+.user-dialog-white-style .wrap .content .bind-account-comp .title-texts .text1[data-v-2432a4aa],.user-dialog-white-style .wrap .content .firebase-bind-account-comp .title-texts .text1[data-v-2432a4aa],.user-dialog-white-style .wrap .content .firebase-register-comp .title-texts .text1[data-v-2432a4aa],.user-dialog-white-style .wrap .content .forgot-pwd-comp .title-texts .text1[data-v-2432a4aa],.user-dialog-white-style .wrap .content .login-comp .title-texts .text1[data-v-2432a4aa],.user-dialog-white-style .wrap .content .register-comp .title-texts .text1[data-v-2432a4aa],.user-dialog-white-style .wrap .content .reset-pwd-comp .title-texts .text1[data-v-2432a4aa],.user-dialog-white-style .wrap .content .vip-verify-code-comp .title-texts .text1[data-v-2432a4aa] {
+    border-bottom: 1px solid #ebebeb;
+    color: #262626;
+    height: 30px;
+    margin-bottom: 20px;
+    width: 100%
+}
+
+.user-dialog-white-style .wrap .content .bind-account-comp .title-texts .text2[data-v-2432a4aa],.user-dialog-white-style .wrap .content .firebase-bind-account-comp .title-texts .text2[data-v-2432a4aa],.user-dialog-white-style .wrap .content .firebase-register-comp .title-texts .text2[data-v-2432a4aa],.user-dialog-white-style .wrap .content .forgot-pwd-comp .title-texts .text2[data-v-2432a4aa],.user-dialog-white-style .wrap .content .login-comp .title-texts .text2[data-v-2432a4aa],.user-dialog-white-style .wrap .content .register-comp .title-texts .text2[data-v-2432a4aa],.user-dialog-white-style .wrap .content .reset-pwd-comp .title-texts .text2[data-v-2432a4aa],.user-dialog-white-style .wrap .content .vip-verify-code-comp .title-texts .text2[data-v-2432a4aa] {
+    color: #f84242
+}
+
+.user-dialog-white-style .wrap .content .bind-account-comp .title-text-border[data-v-2432a4aa],.user-dialog-white-style .wrap .content .firebase-bind-account-comp .title-text-border[data-v-2432a4aa],.user-dialog-white-style .wrap .content .firebase-register-comp .title-text-border[data-v-2432a4aa],.user-dialog-white-style .wrap .content .forgot-pwd-comp .title-text-border[data-v-2432a4aa],.user-dialog-white-style .wrap .content .login-comp .title-text-border[data-v-2432a4aa],.user-dialog-white-style .wrap .content .register-comp .title-text-border[data-v-2432a4aa],.user-dialog-white-style .wrap .content .reset-pwd-comp .title-text-border[data-v-2432a4aa],.user-dialog-white-style .wrap .content .vip-verify-code-comp .title-text-border[data-v-2432a4aa] {
+    border-bottom: 1px solid #ebebeb
+}
+
+.user-dialog-white-style .wrap .content .bind-account-comp .title-text-border .text[data-v-2432a4aa],.user-dialog-white-style .wrap .content .bind-account-comp .username-texts .text1[data-v-2432a4aa],.user-dialog-white-style .wrap .content .bind-account-comp .username-texts .text[data-v-2432a4aa],.user-dialog-white-style .wrap .content .bind-account-comp .verification-code .text1[data-v-2432a4aa],.user-dialog-white-style .wrap .content .bind-account-comp .verification-code .text[data-v-2432a4aa],.user-dialog-white-style .wrap .content .firebase-bind-account-comp .title-text-border .text[data-v-2432a4aa],.user-dialog-white-style .wrap .content .firebase-bind-account-comp .username-texts .text1[data-v-2432a4aa],.user-dialog-white-style .wrap .content .firebase-bind-account-comp .username-texts .text[data-v-2432a4aa],.user-dialog-white-style .wrap .content .firebase-bind-account-comp .verification-code .text1[data-v-2432a4aa],.user-dialog-white-style .wrap .content .firebase-bind-account-comp .verification-code .text[data-v-2432a4aa],.user-dialog-white-style .wrap .content .firebase-register-comp .title-text-border .text[data-v-2432a4aa],.user-dialog-white-style .wrap .content .firebase-register-comp .username-texts .text1[data-v-2432a4aa],.user-dialog-white-style .wrap .content .firebase-register-comp .username-texts .text[data-v-2432a4aa],.user-dialog-white-style .wrap .content .firebase-register-comp .verification-code .text1[data-v-2432a4aa],.user-dialog-white-style .wrap .content .firebase-register-comp .verification-code .text[data-v-2432a4aa],.user-dialog-white-style .wrap .content .forgot-pwd-comp .title-text-border .text[data-v-2432a4aa],.user-dialog-white-style .wrap .content .forgot-pwd-comp .username-texts .text1[data-v-2432a4aa],.user-dialog-white-style .wrap .content .forgot-pwd-comp .username-texts .text[data-v-2432a4aa],.user-dialog-white-style .wrap .content .forgot-pwd-comp .verification-code .text1[data-v-2432a4aa],.user-dialog-white-style .wrap .content .forgot-pwd-comp .verification-code .text[data-v-2432a4aa],.user-dialog-white-style .wrap .content .login-comp .title-text-border .text[data-v-2432a4aa],.user-dialog-white-style .wrap .content .login-comp .username-texts .text1[data-v-2432a4aa],.user-dialog-white-style .wrap .content .login-comp .username-texts .text[data-v-2432a4aa],.user-dialog-white-style .wrap .content .login-comp .verification-code .text1[data-v-2432a4aa],.user-dialog-white-style .wrap .content .login-comp .verification-code .text[data-v-2432a4aa],.user-dialog-white-style .wrap .content .register-comp .title-text-border .text[data-v-2432a4aa],.user-dialog-white-style .wrap .content .register-comp .username-texts .text1[data-v-2432a4aa],.user-dialog-white-style .wrap .content .register-comp .username-texts .text[data-v-2432a4aa],.user-dialog-white-style .wrap .content .register-comp .verification-code .text1[data-v-2432a4aa],.user-dialog-white-style .wrap .content .register-comp .verification-code .text[data-v-2432a4aa],.user-dialog-white-style .wrap .content .reset-pwd-comp .title-text-border .text[data-v-2432a4aa],.user-dialog-white-style .wrap .content .reset-pwd-comp .username-texts .text1[data-v-2432a4aa],.user-dialog-white-style .wrap .content .reset-pwd-comp .username-texts .text[data-v-2432a4aa],.user-dialog-white-style .wrap .content .reset-pwd-comp .verification-code .text1[data-v-2432a4aa],.user-dialog-white-style .wrap .content .reset-pwd-comp .verification-code .text[data-v-2432a4aa],.user-dialog-white-style .wrap .content .vip-verify-code-comp .title-text-border .text[data-v-2432a4aa],.user-dialog-white-style .wrap .content .vip-verify-code-comp .username-texts .text1[data-v-2432a4aa],.user-dialog-white-style .wrap .content .vip-verify-code-comp .username-texts .text[data-v-2432a4aa],.user-dialog-white-style .wrap .content .vip-verify-code-comp .verification-code .text1[data-v-2432a4aa],.user-dialog-white-style .wrap .content .vip-verify-code-comp .verification-code .text[data-v-2432a4aa] {
+    color: #262626
+}
+
+.user-dialog-white-style .wrap .content .bind-account-comp .u-inputs input[data-v-2432a4aa],.user-dialog-white-style .wrap .content .firebase-bind-account-comp .u-inputs input[data-v-2432a4aa],.user-dialog-white-style .wrap .content .firebase-register-comp .u-inputs input[data-v-2432a4aa],.user-dialog-white-style .wrap .content .forgot-pwd-comp .u-inputs input[data-v-2432a4aa],.user-dialog-white-style .wrap .content .login-comp .u-inputs input[data-v-2432a4aa],.user-dialog-white-style .wrap .content .register-comp .u-inputs input[data-v-2432a4aa],.user-dialog-white-style .wrap .content .reset-pwd-comp .u-inputs input[data-v-2432a4aa],.user-dialog-white-style .wrap .content .vip-verify-code-comp .u-inputs input[data-v-2432a4aa] {
+    background: #f9f9f9;
+    border: 1px solid #d9d9d9;
+    caret-color: #262626;
+    color: #262626
+}
+
+.user-dialog-white-style .wrap .content .bind-account-comp .u-inputs input[data-v-2432a4aa]:focus,.user-dialog-white-style .wrap .content .firebase-bind-account-comp .u-inputs input[data-v-2432a4aa]:focus,.user-dialog-white-style .wrap .content .firebase-register-comp .u-inputs input[data-v-2432a4aa]:focus,.user-dialog-white-style .wrap .content .forgot-pwd-comp .u-inputs input[data-v-2432a4aa]:focus,.user-dialog-white-style .wrap .content .login-comp .u-inputs input[data-v-2432a4aa]:focus,.user-dialog-white-style .wrap .content .register-comp .u-inputs input[data-v-2432a4aa]:focus,.user-dialog-white-style .wrap .content .reset-pwd-comp .u-inputs input[data-v-2432a4aa]:focus,.user-dialog-white-style .wrap .content .vip-verify-code-comp .u-inputs input[data-v-2432a4aa]:focus {
+    border-color: #d9d9d9;
+    outline: 1px solid #d9d9d9
+}
+
+.user-dialog-white-style .wrap .content .bind-account-comp .u-inputs input[data-v-2432a4aa]:-moz-autofill,.user-dialog-white-style .wrap .content .bind-account-comp .u-inputs input[data-v-2432a4aa]:-moz-autofill-preview,.user-dialog-white-style .wrap .content .bind-account-comp .u-inputs input[data-v-2432a4aa]:autofill,.user-dialog-white-style .wrap .content .firebase-bind-account-comp .u-inputs input[data-v-2432a4aa]:-moz-autofill,.user-dialog-white-style .wrap .content .firebase-bind-account-comp .u-inputs input[data-v-2432a4aa]:-moz-autofill-preview,.user-dialog-white-style .wrap .content .firebase-bind-account-comp .u-inputs input[data-v-2432a4aa]:autofill,.user-dialog-white-style .wrap .content .firebase-register-comp .u-inputs input[data-v-2432a4aa]:-moz-autofill,.user-dialog-white-style .wrap .content .firebase-register-comp .u-inputs input[data-v-2432a4aa]:-moz-autofill-preview,.user-dialog-white-style .wrap .content .firebase-register-comp .u-inputs input[data-v-2432a4aa]:autofill,.user-dialog-white-style .wrap .content .forgot-pwd-comp .u-inputs input[data-v-2432a4aa]:-moz-autofill,.user-dialog-white-style .wrap .content .forgot-pwd-comp .u-inputs input[data-v-2432a4aa]:-moz-autofill-preview,.user-dialog-white-style .wrap .content .forgot-pwd-comp .u-inputs input[data-v-2432a4aa]:autofill,.user-dialog-white-style .wrap .content .login-comp .u-inputs input[data-v-2432a4aa]:-moz-autofill,.user-dialog-white-style .wrap .content .login-comp .u-inputs input[data-v-2432a4aa]:-moz-autofill-preview,.user-dialog-white-style .wrap .content .login-comp .u-inputs input[data-v-2432a4aa]:autofill,.user-dialog-white-style .wrap .content .register-comp .u-inputs input[data-v-2432a4aa]:-moz-autofill,.user-dialog-white-style .wrap .content .register-comp .u-inputs input[data-v-2432a4aa]:-moz-autofill-preview,.user-dialog-white-style .wrap .content .register-comp .u-inputs input[data-v-2432a4aa]:autofill,.user-dialog-white-style .wrap .content .reset-pwd-comp .u-inputs input[data-v-2432a4aa]:-moz-autofill,.user-dialog-white-style .wrap .content .reset-pwd-comp .u-inputs input[data-v-2432a4aa]:-moz-autofill-preview,.user-dialog-white-style .wrap .content .reset-pwd-comp .u-inputs input[data-v-2432a4aa]:autofill,.user-dialog-white-style .wrap .content .vip-verify-code-comp .u-inputs input[data-v-2432a4aa]:-moz-autofill,.user-dialog-white-style .wrap .content .vip-verify-code-comp .u-inputs input[data-v-2432a4aa]:-moz-autofill-preview,.user-dialog-white-style .wrap .content .vip-verify-code-comp .u-inputs input[data-v-2432a4aa]:autofill {
+    background: #d9d9d9!important;
+    filter: none!important
+}
+
+.user-dialog-white-style .wrap .content .bind-account-comp .u-inputs input[data-v-2432a4aa]:-internal-autofill-previewed,.user-dialog-white-style .wrap .content .bind-account-comp .u-inputs input[data-v-2432a4aa]:-internal-autofill-selected,.user-dialog-white-style .wrap .content .bind-account-comp .u-inputs input[data-v-2432a4aa]:-webkit-autofill,.user-dialog-white-style .wrap .content .bind-account-comp .u-inputs input[data-v-2432a4aa]:-webkit-autofill:active,.user-dialog-white-style .wrap .content .bind-account-comp .u-inputs input[data-v-2432a4aa]:-webkit-autofill:focus,.user-dialog-white-style .wrap .content .bind-account-comp .u-inputs input[data-v-2432a4aa]:-webkit-autofill:hover,.user-dialog-white-style .wrap .content .firebase-bind-account-comp .u-inputs input[data-v-2432a4aa]:-internal-autofill-previewed,.user-dialog-white-style .wrap .content .firebase-bind-account-comp .u-inputs input[data-v-2432a4aa]:-internal-autofill-selected,.user-dialog-white-style .wrap .content .firebase-bind-account-comp .u-inputs input[data-v-2432a4aa]:-webkit-autofill,.user-dialog-white-style .wrap .content .firebase-bind-account-comp .u-inputs input[data-v-2432a4aa]:-webkit-autofill:active,.user-dialog-white-style .wrap .content .firebase-bind-account-comp .u-inputs input[data-v-2432a4aa]:-webkit-autofill:focus,.user-dialog-white-style .wrap .content .firebase-bind-account-comp .u-inputs input[data-v-2432a4aa]:-webkit-autofill:hover,.user-dialog-white-style .wrap .content .firebase-register-comp .u-inputs input[data-v-2432a4aa]:-internal-autofill-previewed,.user-dialog-white-style .wrap .content .firebase-register-comp .u-inputs input[data-v-2432a4aa]:-internal-autofill-selected,.user-dialog-white-style .wrap .content .firebase-register-comp .u-inputs input[data-v-2432a4aa]:-webkit-autofill,.user-dialog-white-style .wrap .content .firebase-register-comp .u-inputs input[data-v-2432a4aa]:-webkit-autofill:active,.user-dialog-white-style .wrap .content .firebase-register-comp .u-inputs input[data-v-2432a4aa]:-webkit-autofill:focus,.user-dialog-white-style .wrap .content .firebase-register-comp .u-inputs input[data-v-2432a4aa]:-webkit-autofill:hover,.user-dialog-white-style .wrap .content .forgot-pwd-comp .u-inputs input[data-v-2432a4aa]:-internal-autofill-previewed,.user-dialog-white-style .wrap .content .forgot-pwd-comp .u-inputs input[data-v-2432a4aa]:-internal-autofill-selected,.user-dialog-white-style .wrap .content .forgot-pwd-comp .u-inputs input[data-v-2432a4aa]:-webkit-autofill,.user-dialog-white-style .wrap .content .forgot-pwd-comp .u-inputs input[data-v-2432a4aa]:-webkit-autofill:active,.user-dialog-white-style .wrap .content .forgot-pwd-comp .u-inputs input[data-v-2432a4aa]:-webkit-autofill:focus,.user-dialog-white-style .wrap .content .forgot-pwd-comp .u-inputs input[data-v-2432a4aa]:-webkit-autofill:hover,.user-dialog-white-style .wrap .content .login-comp .u-inputs input[data-v-2432a4aa]:-internal-autofill-previewed,.user-dialog-white-style .wrap .content .login-comp .u-inputs input[data-v-2432a4aa]:-internal-autofill-selected,.user-dialog-white-style .wrap .content .login-comp .u-inputs input[data-v-2432a4aa]:-webkit-autofill,.user-dialog-white-style .wrap .content .login-comp .u-inputs input[data-v-2432a4aa]:-webkit-autofill:active,.user-dialog-white-style .wrap .content .login-comp .u-inputs input[data-v-2432a4aa]:-webkit-autofill:focus,.user-dialog-white-style .wrap .content .login-comp .u-inputs input[data-v-2432a4aa]:-webkit-autofill:hover,.user-dialog-white-style .wrap .content .register-comp .u-inputs input[data-v-2432a4aa]:-internal-autofill-previewed,.user-dialog-white-style .wrap .content .register-comp .u-inputs input[data-v-2432a4aa]:-internal-autofill-selected,.user-dialog-white-style .wrap .content .register-comp .u-inputs input[data-v-2432a4aa]:-webkit-autofill,.user-dialog-white-style .wrap .content .register-comp .u-inputs input[data-v-2432a4aa]:-webkit-autofill:active,.user-dialog-white-style .wrap .content .register-comp .u-inputs input[data-v-2432a4aa]:-webkit-autofill:focus,.user-dialog-white-style .wrap .content .register-comp .u-inputs input[data-v-2432a4aa]:-webkit-autofill:hover,.user-dialog-white-style .wrap .content .reset-pwd-comp .u-inputs input[data-v-2432a4aa]:-internal-autofill-previewed,.user-dialog-white-style .wrap .content .reset-pwd-comp .u-inputs input[data-v-2432a4aa]:-internal-autofill-selected,.user-dialog-white-style .wrap .content .reset-pwd-comp .u-inputs input[data-v-2432a4aa]:-webkit-autofill,.user-dialog-white-style .wrap .content .reset-pwd-comp .u-inputs input[data-v-2432a4aa]:-webkit-autofill:active,.user-dialog-white-style .wrap .content .reset-pwd-comp .u-inputs input[data-v-2432a4aa]:-webkit-autofill:focus,.user-dialog-white-style .wrap .content .reset-pwd-comp .u-inputs input[data-v-2432a4aa]:-webkit-autofill:hover,.user-dialog-white-style .wrap .content .vip-verify-code-comp .u-inputs input[data-v-2432a4aa]:-internal-autofill-previewed,.user-dialog-white-style .wrap .content .vip-verify-code-comp .u-inputs input[data-v-2432a4aa]:-internal-autofill-selected,.user-dialog-white-style .wrap .content .vip-verify-code-comp .u-inputs input[data-v-2432a4aa]:-webkit-autofill,.user-dialog-white-style .wrap .content .vip-verify-code-comp .u-inputs input[data-v-2432a4aa]:-webkit-autofill:active,.user-dialog-white-style .wrap .content .vip-verify-code-comp .u-inputs input[data-v-2432a4aa]:-webkit-autofill:focus,.user-dialog-white-style .wrap .content .vip-verify-code-comp .u-inputs input[data-v-2432a4aa]:-webkit-autofill:hover {
+    -webkit-text-fill-color: #262626!important;
+    background-color: #d9d9d9!important;
+    -webkit-transition: background-color 1000s ease-out .5s!important;
+    transition: background-color 1000s ease-out .5s!important
+}
+
+.user-dialog-white-style .wrap .content .bind-account-comp .u-inputs .email .text[data-v-2432a4aa],.user-dialog-white-style .wrap .content .firebase-bind-account-comp .u-inputs .email .text[data-v-2432a4aa],.user-dialog-white-style .wrap .content .firebase-register-comp .u-inputs .email .text[data-v-2432a4aa],.user-dialog-white-style .wrap .content .forgot-pwd-comp .u-inputs .email .text[data-v-2432a4aa],.user-dialog-white-style .wrap .content .login-comp .u-inputs .email .text[data-v-2432a4aa],.user-dialog-white-style .wrap .content .register-comp .u-inputs .email .text[data-v-2432a4aa],.user-dialog-white-style .wrap .content .reset-pwd-comp .u-inputs .email .text[data-v-2432a4aa],.user-dialog-white-style .wrap .content .vip-verify-code-comp .u-inputs .email .text[data-v-2432a4aa] {
+    color: #262626
+}
+
+.user-dialog-white-style .wrap .content .bind-account-comp .u-inputs .email .input-btn .send-btn[data-v-2432a4aa],.user-dialog-white-style .wrap .content .firebase-bind-account-comp .u-inputs .email .input-btn .send-btn[data-v-2432a4aa],.user-dialog-white-style .wrap .content .firebase-register-comp .u-inputs .email .input-btn .send-btn[data-v-2432a4aa],.user-dialog-white-style .wrap .content .forgot-pwd-comp .u-inputs .email .input-btn .send-btn[data-v-2432a4aa],.user-dialog-white-style .wrap .content .login-comp .u-inputs .email .input-btn .send-btn[data-v-2432a4aa],.user-dialog-white-style .wrap .content .register-comp .u-inputs .email .input-btn .send-btn[data-v-2432a4aa],.user-dialog-white-style .wrap .content .reset-pwd-comp .u-inputs .email .input-btn .send-btn[data-v-2432a4aa],.user-dialog-white-style .wrap .content .vip-verify-code-comp .u-inputs .email .input-btn .send-btn[data-v-2432a4aa] {
+    background: #f2a128;
+    color: #fff
+}
+
+.user-dialog-white-style .wrap .content .bind-account-comp .u-inputs .password-texts .text1[data-v-2432a4aa],.user-dialog-white-style .wrap .content .firebase-bind-account-comp .u-inputs .password-texts .text1[data-v-2432a4aa],.user-dialog-white-style .wrap .content .firebase-register-comp .u-inputs .password-texts .text1[data-v-2432a4aa],.user-dialog-white-style .wrap .content .forgot-pwd-comp .u-inputs .password-texts .text1[data-v-2432a4aa],.user-dialog-white-style .wrap .content .login-comp .u-inputs .password-texts .text1[data-v-2432a4aa],.user-dialog-white-style .wrap .content .register-comp .u-inputs .password-texts .text1[data-v-2432a4aa],.user-dialog-white-style .wrap .content .reset-pwd-comp .u-inputs .password-texts .text1[data-v-2432a4aa],.user-dialog-white-style .wrap .content .vip-verify-code-comp .u-inputs .password-texts .text1[data-v-2432a4aa] {
+    color: #262626
+}
+
+.user-dialog-white-style .wrap .content .bind-account-comp .u-inputs .password-texts .text2[data-v-2432a4aa],.user-dialog-white-style .wrap .content .firebase-bind-account-comp .u-inputs .password-texts .text2[data-v-2432a4aa],.user-dialog-white-style .wrap .content .firebase-register-comp .u-inputs .password-texts .text2[data-v-2432a4aa],.user-dialog-white-style .wrap .content .forgot-pwd-comp .u-inputs .password-texts .text2[data-v-2432a4aa],.user-dialog-white-style .wrap .content .login-comp .u-inputs .password-texts .text2[data-v-2432a4aa],.user-dialog-white-style .wrap .content .register-comp .u-inputs .password-texts .text2[data-v-2432a4aa],.user-dialog-white-style .wrap .content .reset-pwd-comp .u-inputs .password-texts .text2[data-v-2432a4aa],.user-dialog-white-style .wrap .content .vip-verify-code-comp .u-inputs .password-texts .text2[data-v-2432a4aa] {
+    color: #2196f3
+}
+
+.user-dialog-white-style .wrap .content .bind-account-comp .or-reg .or-text[data-v-2432a4aa],.user-dialog-white-style .wrap .content .firebase-bind-account-comp .or-reg .or-text[data-v-2432a4aa],.user-dialog-white-style .wrap .content .firebase-register-comp .or-reg .or-text[data-v-2432a4aa],.user-dialog-white-style .wrap .content .forgot-pwd-comp .or-reg .or-text[data-v-2432a4aa],.user-dialog-white-style .wrap .content .login-comp .or-reg .or-text[data-v-2432a4aa],.user-dialog-white-style .wrap .content .register-comp .or-reg .or-text[data-v-2432a4aa],.user-dialog-white-style .wrap .content .reset-pwd-comp .or-reg .or-text[data-v-2432a4aa],.user-dialog-white-style .wrap .content .vip-verify-code-comp .or-reg .or-text[data-v-2432a4aa] {
+    color: #8c8c8c
+}
+
+.user-dialog-white-style .wrap .content .bind-account-comp .or-reg .or-text2[data-v-2432a4aa],.user-dialog-white-style .wrap .content .firebase-bind-account-comp .or-reg .or-text2[data-v-2432a4aa],.user-dialog-white-style .wrap .content .firebase-register-comp .or-reg .or-text2[data-v-2432a4aa],.user-dialog-white-style .wrap .content .forgot-pwd-comp .or-reg .or-text2[data-v-2432a4aa],.user-dialog-white-style .wrap .content .login-comp .or-reg .or-text2[data-v-2432a4aa],.user-dialog-white-style .wrap .content .register-comp .or-reg .or-text2[data-v-2432a4aa],.user-dialog-white-style .wrap .content .reset-pwd-comp .or-reg .or-text2[data-v-2432a4aa],.user-dialog-white-style .wrap .content .vip-verify-code-comp .or-reg .or-text2[data-v-2432a4aa] {
+    color: #2196f3
+}
+
+.user-dialog-white-style .wrap .content .bind-account-comp .or-reg .age img[data-v-2432a4aa],.user-dialog-white-style .wrap .content .firebase-bind-account-comp .or-reg .age img[data-v-2432a4aa],.user-dialog-white-style .wrap .content .firebase-register-comp .or-reg .age img[data-v-2432a4aa],.user-dialog-white-style .wrap .content .forgot-pwd-comp .or-reg .age img[data-v-2432a4aa],.user-dialog-white-style .wrap .content .login-comp .or-reg .age img[data-v-2432a4aa],.user-dialog-white-style .wrap .content .register-comp .or-reg .age img[data-v-2432a4aa],.user-dialog-white-style .wrap .content .reset-pwd-comp .or-reg .age img[data-v-2432a4aa],.user-dialog-white-style .wrap .content .vip-verify-code-comp .or-reg .age img[data-v-2432a4aa] {
+    width: 37px
+}
+
+.user-dialog-white-style .wrap .content .bind-account-comp .or-reg .age .text[data-v-2432a4aa],.user-dialog-white-style .wrap .content .firebase-bind-account-comp .or-reg .age .text[data-v-2432a4aa],.user-dialog-white-style .wrap .content .firebase-register-comp .or-reg .age .text[data-v-2432a4aa],.user-dialog-white-style .wrap .content .forgot-pwd-comp .or-reg .age .text[data-v-2432a4aa],.user-dialog-white-style .wrap .content .login-comp .or-reg .age .text[data-v-2432a4aa],.user-dialog-white-style .wrap .content .register-comp .or-reg .age .text[data-v-2432a4aa],.user-dialog-white-style .wrap .content .reset-pwd-comp .or-reg .age .text[data-v-2432a4aa],.user-dialog-white-style .wrap .content .vip-verify-code-comp .or-reg .age .text[data-v-2432a4aa] {
+    color: #595959
+}
+
+.user-dialog-white-style .wrap .content .bind-account-comp .or-reg .g-x-logos .img-x[data-v-2432a4aa],.user-dialog-white-style .wrap .content .firebase-bind-account-comp .or-reg .g-x-logos .img-x[data-v-2432a4aa],.user-dialog-white-style .wrap .content .firebase-register-comp .or-reg .g-x-logos .img-x[data-v-2432a4aa],.user-dialog-white-style .wrap .content .forgot-pwd-comp .or-reg .g-x-logos .img-x[data-v-2432a4aa],.user-dialog-white-style .wrap .content .login-comp .or-reg .g-x-logos .img-x[data-v-2432a4aa],.user-dialog-white-style .wrap .content .register-comp .or-reg .g-x-logos .img-x[data-v-2432a4aa],.user-dialog-white-style .wrap .content .reset-pwd-comp .or-reg .g-x-logos .img-x[data-v-2432a4aa],.user-dialog-white-style .wrap .content .vip-verify-code-comp .or-reg .g-x-logos .img-x[data-v-2432a4aa] {
+    height: 32px;
+    width: 33px
+}
+
+.user-dialog-white-style .wrap .content .bind-account-comp .btn button[data-v-2432a4aa],.user-dialog-white-style .wrap .content .firebase-bind-account-comp .btn button[data-v-2432a4aa],.user-dialog-white-style .wrap .content .firebase-register-comp .btn button[data-v-2432a4aa],.user-dialog-white-style .wrap .content .forgot-pwd-comp .btn button[data-v-2432a4aa],.user-dialog-white-style .wrap .content .login-comp .btn button[data-v-2432a4aa],.user-dialog-white-style .wrap .content .register-comp .btn button[data-v-2432a4aa],.user-dialog-white-style .wrap .content .reset-pwd-comp .btn button[data-v-2432a4aa],.user-dialog-white-style .wrap .content .vip-verify-code-comp .btn button[data-v-2432a4aa] {
+    background: #1c549c;
+    color: #fff
+}
+
+.init-loading3-7th-mixin .init-loading3[data-v-2432a4aa] {
+    height: 16px;
+    margin-right: 4px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content
+}
+
+.init-loading3-7th-mixin .init-loading3 svg[data-v-2432a4aa] {
+    color: #4f719e;
+    height: 16px;
+    width: 16px
+}
+
+.init-loading3-7th-mixin .init-loading3 svg path[data-v-2432a4aa]:nth-child(2) {
+    color: #262626
+}
+
+.link-page[data-v-2432a4aa] {
+    padding-bottom: 50px
+}
+
+.link-page .content[data-v-2432a4aa] {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    /* min-height:500px; */
+    overflow: hidden;
+    position: relative
+}
+
+.link-page .content .header[data-v-2432a4aa],.link-page .content[data-v-2432a4aa] {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    width: 100%
+}
+
+.link-page .content .header[data-v-2432a4aa] {
+    -webkit-box-pack: center;
+    background: #32476b;
+    height: 44px;
+    -webkit-justify-content: center;
+    justify-content: center
+}
+
+.link-page .content .header img[data-v-2432a4aa] {
+    width: 120px
+}
+
+.link-page .content .text1[data-v-2432a4aa] {
+    color: #fff;
+    font-size: 28px;
+    margin-bottom: 20px;
+    margin-top: 40px
+}
+
+.link-page .content .dig-link[data-v-2432a4aa] {
+    background: rgba(66,198,255,.2);
+    border: 1px solid #167296;
+    border-radius: 6px;
+    font-size: 16px;
+    max-width: 380px;
+    min-height: 100px;
+    padding: 24px 0;
+    position: relative;
+    width: 380px
+}
+
+.link-page .content .dig-link[data-v-2432a4aa] .init-loading {
+    margin: -30px auto auto -30px
+}
+
+.link-page .content .dig-link[data-v-2432a4aa] .init-loading svg {
+    height: 60px;
+    width: 60px
+}
+
+.link-page .content .dig-link .link-item[data-v-2432a4aa] {
+    margin-left: 52px;
+    padding-bottom: 20px
+}
+
+.link-page .content .dig-link .link-item p[data-v-2432a4aa],.link-page .content .dig-link .link-item[data-v-2432a4aa] {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex
+}
+
+.link-page .content .dig-link .link-item p[data-v-2432a4aa] {
+    -webkit-box-pack: center;
+    background: #1b70dc;
+    border-radius: 4px;
+    color: #fff;
+    height: 30px;
+    -webkit-justify-content: center;
+    justify-content: center;
+    max-width: 100px;
+    min-width: 90px;
+    padding: 0 10px;
+    white-space: nowrap
+}
+
+.link-page .content .dig-link .link-item a[data-v-2432a4aa] {
+    color: #ffd600;
+    margin-left: 16px
+}
+
+.link-page .content .dig-link .link-item[data-v-2432a4aa]:last-child {
+    padding-bottom: 0
+}
+
+.link-page .content .dig-fav[data-v-2432a4aa] {
+    background: hsla(0,0%,100%,.05);
+    border: 1px solid #0c5a79;
+    border-radius: 10px;
+    color: #fff;
+    margin-top: 50px;
+    max-width: 450px;
+    padding: 28px 0;
+    width: 450px
+}
+
+.link-page .content .dig-fav .tips[data-v-2432a4aa] {
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    font-size: 14px;
+    -webkit-justify-content: center;
+    justify-content: center;
+    padding: 0 10px
+}
+
+.link-page .content .dig-fav .tips img[data-v-2432a4aa] {
+    height: 22px;
+    margin-right: 6px;
+    width: 22px
+}
+
+.link-page .content .dig-fav .method1[data-v-2432a4aa],.link-page .content .dig-fav .method2[data-v-2432a4aa] {
+    -webkit-box-pack: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center
+}
+
+.link-page .content .dig-fav .method1 .text[data-v-2432a4aa],.link-page .content .dig-fav .method2 .text[data-v-2432a4aa] {
+    background: #1661bf;
+    border-radius: 15px;
+    font-size: 16px;
+    height: 28px;
+    max-width: 100px;
+    min-width: 90px;
+    padding: 4px 14px;
+    white-space: nowrap
+}
+
+.link-page .content .dig-fav .method1[data-v-2432a4aa] {
+    margin-bottom: 20px;
+    margin-top: 20px
+}
+
+.link-page .content .dig-fav .method1 img[data-v-2432a4aa],.link-page .content .dig-fav .method2 .tips[data-v-2432a4aa] {
+    margin-left: 20px;
+    width: 306px
+}
+
+.link-page .content .dig-fav .method2 .tips .c[data-v-2432a4aa],.link-page .content .dig-fav .method2 .tips .d[data-v-2432a4aa],.link-page .content .dig-fav .method2 .tips[data-v-2432a4aa] {
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center
+}
+
+.link-page .content .dig-fav .method2 .tips .c[data-v-2432a4aa],.link-page .content .dig-fav .method2 .tips .d[data-v-2432a4aa] {
+    background: #cecece;
+    border-radius: 4px;
+    color: #0a356f;
+    height: 28px;
+    padding: 0 12px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content
+}
+
+.link-page .content .dig-fav .method2 .tips .p[data-v-2432a4aa] {
+    margin: 0 8px
+}
+
+.link-page .content .dig-fav .method2 .tips .d[data-v-2432a4aa] {
+    margin-right: 10px
+}
+
+.link-page .content .dig-sub[data-v-2432a4aa] {
+    margin-top: 40px;
+    width: calc(100% - 80px)
+}
+
+.link-page .content .dig-sub .title[data-v-2432a4aa] {
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center
+}
+
+.link-page .content .dig-sub .title .line[data-v-2432a4aa] {
+    background: hsla(0,0%,100%,.2);
+    height: 1px;
+    width: 100%
+}
+
+.link-page .content .dig-sub .title .text[data-v-2432a4aa] {
+    color: #fff;
+    font-size: 14px;
+    margin: 0 16px;
+    white-space: nowrap
+}
+
+.link-page .content .dig-sub .title2[data-v-2432a4aa] {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 40px;
+    text-align: center
+}
+
+.link-page .content .dig-sub .input-btn[data-v-2432a4aa] {
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    margin-top: 14px
+}
+
+.link-page .content .dig-sub .input-btn .left[data-v-2432a4aa] {
+    border: 1px solid #d4d4d4;
+    border-radius: 4px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    height: 30px;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content
+}
+
+.link-page .content .dig-sub .input-btn .left .icon[data-v-2432a4aa] {
+    background-image: url(https://cfstatic.newapia.com/img/link/icon_email.png);
+    background-position: 0 -94px;
+    border-right: 1px solid #d4d4d4;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    padding-right: 1px;
+    width: 36px
+}
+
+.link-page .content .dig-sub .input-btn .left input[data-v-2432a4aa] {
+    border-radius: 0;
+    padding-left: 10px;
+    width: 181px
+}
+
+.link-page .content .dig-sub .input-btn .right[data-v-2432a4aa] {
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    -webkit-align-items: center;
+    align-items: center;
+    background-color: #1661bf;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    font-size: 14px;
+    height: 30px;
+    -webkit-justify-content: center;
+    justify-content: center;
+    margin-left: 10px;
+    width: 90px
+}
+
+.link-page .content .dig-app[data-v-2432a4aa] {
+    margin-top: 40px
+}
+
+.link-page .content .dig-app .title[data-v-2432a4aa] {
+    color: #fff;
+    font-size: 14px;
+    text-align: center
+}
+
+.link-page .content .dig-app .ap[data-v-2432a4aa] {
+    margin-top: 15px;
+    width: 100%
+}
+
+.link-page .content .dig-app .ap a[data-v-2432a4aa],.link-page .content .dig-app .ap[data-v-2432a4aa] {
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center
+}
+
+.link-page .content .dig-app .ap a[data-v-2432a4aa] {
+    background: #00cca8;
+    border-radius: 4px;
+    color: #041935;
+    font-size: 16px;
+    font-weight: 700;
+    height: 80px;
+    width: 150px
+}
+
+.link-page .content .dig-app .ap a img[data-v-2432a4aa] {
+    height: 36px;
+    margin-left: 15px;
+    margin-right: 10px;
+    width: 36px
+}
+
+.link-page .content .dig-app .ap .code-img[data-v-2432a4aa] {
+    height: 80px;
+    margin-left: 20px;
+    width: 80px
+}
+
+.link-page .content .dig-v[data-v-2432a4aa] {
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    margin-top: 36px
+}
+
+.link-page .content .dig-v img[data-v-2432a4aa] {
+    height: 22px;
+    margin-right: 5px;
+    margin-top: -1px;
+    width: 22px
+}
+
+.link-page .content .dig-v p[data-v-2432a4aa] {
+    color: #fff;
+    font-size: 14px
+}
+
+.link-page .content .dig-v p a[data-v-2432a4aa] {
+    color: #ffd600;
+    margin-left: 2px
+}
+
+@media only screen and (max-width: 750px) {
+    .link-page .content .dig[data-v-2432a4aa] {
+        width:calc(100% - 40px)
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .link-page .content .dig-link .link-item[data-v-2432a4aa] {
+        margin-left:30px!important
+    }
+
+    .link-page .content .dig-link .link-item a[data-v-2432a4aa] {
+        white-space: normal
+    }
+
+    .link-page .content .dig-fav .method1[data-v-2432a4aa],.link-page .content .dig-fav .method2[data-v-2432a4aa] {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-box-pack: center;
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        -webkit-justify-content: center;
+        justify-content: center;
+        margin: 0 auto!important
+    }
+
+    .link-page .content .dig-fav .method1 .text[data-v-2432a4aa],.link-page .content .dig-fav .method2 .text[data-v-2432a4aa] {
+        margin: 14px auto!important
+    }
+
+    .link-page .content .dig-fav .method1 img[data-v-2432a4aa] {
+        margin: 0 auto!important;
+        width: 296px
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .link-page .content .dig-link .link-item[data-v-2432a4aa] {
+        margin-left:10px!important
+    }
+
+    .link-page .content .dig-fav .method1 img[data-v-2432a4aa] {
+        margin: 0 auto!important;
+        width: 246px
+    }
+}
+
+.link-page.link-page-gsites .dig-link[data-v-2432a4aa] {
+    min-height: -webkit-fit-content;
+    min-height: -moz-fit-content;
+    min-height: fit-content
+}
